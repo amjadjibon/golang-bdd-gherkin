@@ -1,0 +1,388 @@
+[
+    {
+        "uri": "features/double.feature",
+        "id": "",
+        "keyword": "Feature",
+        "name": "",
+        "description": "    As a gopher\n    I was wandering around the internet\n    I met a wizard\n    He told me if I have even number of godogs\n    Then He can double them",
+        "line": 1,
+        "elements": [
+            {
+                "id": ";doubled-the-number-of-godogs",
+                "keyword": "Scenario",
+                "name": "Doubled the number of godogs",
+                "description": "",
+                "line": 8,
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "there are 8 godogs",
+                        "line": 9,
+                        "match": {
+                            "location": "godogs_test.go:72"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 39209
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "I ask the wizard to double them",
+                        "line": 10,
+                        "match": {
+                            "location": "godogs_test.go:87"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 50500
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "I should have 16 godogs",
+                        "line": 11,
+                        "match": {
+                            "location": "godogs_test.go:92"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 29333
+                        }
+                    }
+                ]
+            },
+            {
+                "id": ";not-doubled-the-number-of-godogs",
+                "keyword": "Scenario",
+                "name": "Not doubled the number of godogs",
+                "description": "",
+                "line": 13,
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "there are 7 godogs",
+                        "line": 14,
+                        "match": {
+                            "location": "godogs_test.go:72"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 68959
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "I ask the wizard to double them",
+                        "line": 15,
+                        "match": {
+                            "location": "godogs_test.go:87"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 137208
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "I should have 7 godogs",
+                        "line": 16,
+                        "match": {
+                            "location": "godogs_test.go:92"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 27583
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "uri": "features/buygodogs.feature",
+        "id": "buy-some-godogs",
+        "keyword": "Feature",
+        "name": "buy some godogs",
+        "description": "    In order to have some fun\n    As a godog fan\n    I need to be able to buy some godogs",
+        "line": 1,
+        "elements": [
+            {
+                "id": "buy-some-godogs;filling-the-cart",
+                "keyword": "Scenario",
+                "name": "Filling the cart",
+                "description": "",
+                "line": 6,
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "there are 5 godogs",
+                        "line": 7,
+                        "match": {
+                            "location": "godogs_test.go:72"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 194750
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "I eat 5",
+                        "line": 8,
+                        "match": {
+                            "location": "godogs_test.go:78"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 201166
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "there should be none remaining",
+                        "line": 9,
+                        "match": {
+                            "location": "godogs_test.go:101"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 86750
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "Then I buy 4",
+                        "line": 10,
+                        "match": {
+                            "location": "godogs_test.go:82"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 92917
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "there should be 4 remaining",
+                        "line": 11,
+                        "match": {
+                            "location": "godogs_test.go:92"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 74583
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "uri": "features/nodogs.feature",
+        "id": "do-not-eat-godogs",
+        "keyword": "Feature",
+        "name": "do not eat godogs",
+        "description": "  In order to be fit\n  As a well-fed gopher\n  I need to be able to avoid godogs",
+        "line": 1,
+        "elements": [
+            {
+                "id": "do-not-eat-godogs;eat-0-out-of-12",
+                "keyword": "Scenario",
+                "name": "Eat 0 out of 12",
+                "description": "",
+                "line": 6,
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "there are 12 godogs",
+                        "line": 7,
+                        "match": {
+                            "location": "godogs_test.go:72"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 32417
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "I eat 0",
+                        "line": 8,
+                        "match": {
+                            "location": "godogs_test.go:78"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 140875
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "there should be 12 remaining",
+                        "line": 9,
+                        "match": {
+                            "location": "godogs_test.go:92"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 37458
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "do-not-eat-godogs;eat-0-out-of-0",
+                "keyword": "Scenario",
+                "name": "Eat 0 out of 0",
+                "description": "",
+                "line": 11,
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "there are 0 godogs",
+                        "line": 12,
+                        "match": {
+                            "location": "godogs_test.go:72"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 36334
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "I eat 0",
+                        "line": 13,
+                        "match": {
+                            "location": "godogs_test.go:78"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 41000
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "there should be none remaining",
+                        "line": 14,
+                        "match": {
+                            "location": "godogs_test.go:101"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 77166
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "uri": "features/godogs.feature",
+        "id": "eat-godogs",
+        "keyword": "Feature",
+        "name": "eat godogs",
+        "description": "  In order to be happy\n  As a hungry gopher\n  I need to be able to eat godogs",
+        "line": 1,
+        "elements": [
+            {
+                "id": "eat-godogs;eat-5-out-of-12",
+                "keyword": "Scenario",
+                "name": "Eat 5 out of 12",
+                "description": "",
+                "line": 6,
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "there are 12 godogs",
+                        "line": 7,
+                        "match": {
+                            "location": "godogs_test.go:72"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 13333
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "I eat 5",
+                        "line": 8,
+                        "match": {
+                            "location": "godogs_test.go:78"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 199959
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "there should be 7 remaining",
+                        "line": 9,
+                        "match": {
+                            "location": "godogs_test.go:92"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 43583
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "eat-godogs;eat-12-out-of-12",
+                "keyword": "Scenario",
+                "name": "Eat 12 out of 12",
+                "description": "",
+                "line": 11,
+                "type": "scenario",
+                "steps": [
+                    {
+                        "keyword": "Given ",
+                        "name": "there are 12 godogs",
+                        "line": 12,
+                        "match": {
+                            "location": "godogs_test.go:72"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 138417
+                        }
+                    },
+                    {
+                        "keyword": "When ",
+                        "name": "I eat 12",
+                        "line": 13,
+                        "match": {
+                            "location": "godogs_test.go:78"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 78333
+                        }
+                    },
+                    {
+                        "keyword": "Then ",
+                        "name": "there should be none remaining",
+                        "line": 14,
+                        "match": {
+                            "location": "godogs_test.go:101"
+                        },
+                        "result": {
+                            "status": "passed",
+                            "duration": 44417
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
