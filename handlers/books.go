@@ -8,6 +8,8 @@ import (
 	"github.com/labstack/echo/v4"
 )
 
+//go:generate go run github.com/princjef/gomarkdoc/cmd/gomarkdoc@v1.1.0 --output doc.md .
+
 // GetBooks godoc
 // @Summary Get all books
 // @Description Get all books
